@@ -1,0 +1,117 @@
+
+
+.links-index {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.navegador {
+    width: 1400px;
+    height: 100px;
+    background-color:#8FBC8F;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.links-contacto {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+.contact {
+
+}
+
+  
+
+.links-galeria {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+
+.links-historia {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+.links-biodiversidad {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: medium;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 350px 350px 350px 350px  ;
+
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px black;
+    display: inline-block;
+    font-size: 32px;
+    padding: 0%;
+    margin: 0px 0px 0px 0px;
+
+}
+
+  footer {
+    border: inset;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
