@@ -7,8 +7,7 @@
     font-weight: bold;
     text-decoration: none;
     margin: 20px;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 .navegador {
@@ -32,9 +31,83 @@
     padding: 10px;
 }
 
-.contact {
+.contact_form{  
+    width: 550px; 
+    height: auto;
+    border: 1px solid #8FBC8F;
+    margin: 80px auto;
+    border-radius: 10px; 
+    text-align: left; 
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #F0FFFF; 
+    padding-left: 30px; 
+}
+
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #8FBC8F; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #8FBC8F; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+label{
+    display: block; 
+    float: center;  
+}
+
+button{
+    height: 50px; 
+    padding-left: 5px;
+    padding-right: 5px;     
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #8FBC8F; 
+    border-color: #8FBC8F; 
+    border-style: solid; 
+    border-radius: 10px;    
+    width: 520px;   
+    cursor: pointer;
+}
+
+button p{
+    color: #ffffff; 
+    text-align: center;
+    margin-top: 10px;
 
 }
+
+.formulario input:focus{
+    outline:0;
+    border: 1px solid #66a51a;
+}
+
+.formulario textarea:focus{
+    outline:0;
+    border: 1px solid #66a51a;
+}
+
 
   
 

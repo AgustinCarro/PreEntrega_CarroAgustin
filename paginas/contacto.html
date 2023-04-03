@@ -30,52 +30,49 @@
 
    <!--formulario--> 
    
-   <div class="contact">
-   <h1>CONTACTANOS</h1>
-    <form>
-        <label for="nombre">Nombre y apellido</label>
-        <input type="text" name="nombre" placeholder="ingrese su nombre y apellido"/>
-    </form>
+<div class="contact_form">
+    <div class="formulario">
+        <h3>Envianos tu consulta</h3>
+        <p>Envianos tus dudas o consultas sobre el parque</p>
 
-    <form>
+        <form action="submeter-formulario.php" method="post"></form>
 
-        <label for="mail">E-Mail</label>
-        <input type="text" name="mail" placeholder="ingrese su E-Mail "/>
-    
+        <p>
+            <label for="Nombre y Apellido">Nombre y Apellido</label>
+            <input type="text" name="Nombre" placeholder="Escriba su Nombre y Apellido">
+        </p>
 
-    </form>
+        <p>
+            <label for="E-Mail">E-Mail</label>
+            <input type="text" name="Mail" placeholder="Escriba su E-Mail">
+        </p>
 
+        <p>
+            <label for="Teléfono">Teléfono</label>
+            <input type="text" name="teléfono" placeholder="Escriba su teléfono">                               
+        </p>
 
-<!--menu desplegable-->
-<form>
-    <p>Nacionalidad</p> 
-    <select name="Nacionalidad">
-        <option value="Arg">Argentina</option>
-        <option value="Uru">Uruguay</option>
-        <option value="Bol">Bolivia</option>
-        <option value="Par">Paraguay</option>
-        <option value="Col">Colombia</option>
-        <option value="Chi">Chile</option>
-        <option value="Brz">Brasil</option>
-        <option value="Otro">Otro</option>
-
-
-    </select>
-
-</form>
-
-    <form>
-
-        <label for="Consultas">Consultas</label>
-        <input type="text" name="consultas" placeholder="ingrese su consulta"/>
+        <p>
+            <label for="Comunicate">Comunicate con nosotros</label><textarea name="introducir mensaje" placeholder="Dejanos tu mensaje o sugerencia aqui..."></textarea> 
+        </p>     
         
 
-    </form>
-      
-    <form>
-        <input type="submit" value="enviar formulario"/>
-        <input type="reset" value="limpiar formulario"/>
-    </form>
+        <button type="submit" name="enviar formulario"><p><strong>Enviar</strong></p></button>
+            
+        </form>
+        </div>  
+        </div>
+        
+        
+
+    </div>
+
+</div>
+
+
+
+
+
 
 </div>    
      
